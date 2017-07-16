@@ -19,10 +19,11 @@ from django.contrib import admin
 from tastypie.api import Api
 
 from provider.api.resources import ProviderResource
-
+from servicearea.api.resources import ServiceAreaResource
 
 v1_api = Api(api_name='v1')
 v1_api.register(ProviderResource())
+v1_api.register(ServiceAreaResource())
 
 
 urlpatterns = [
