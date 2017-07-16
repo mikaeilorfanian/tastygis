@@ -1,0 +1,22 @@
+[
+{
+    "model": "servicearea.servicearea",
+    "pk": 1,
+    "fields": {
+        "provider": 1,
+        "name": "randomname",
+        "price": "10.40",
+        "polys": "SRID=4326;MULTIPOLYGON (((10 10, 10 20, 20 20, 20 15, 10 10)))"
+    }
+},
+{
+    "model": "servicearea.servicearea",
+    "pk": 2,
+    "fields": {
+        "provider": 1,
+        "name": "newroute",
+        "price": "25.40",
+        "polys": "SRID=4326;MULTIPOLYGON (((1 1, 1 2, 2 2, 1 1)))"
+    }
+}
+]
