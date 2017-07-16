@@ -6,4 +6,4 @@ class Provider(models.Model):
     email = models.EmailField()
     phone = models.IntegerField()
     language = models.CharField(max_length=2)
-    currency = models.CharField(max_length=2)
+    currency = models.CharField(max_length=3)
