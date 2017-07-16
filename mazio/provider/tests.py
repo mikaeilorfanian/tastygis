@@ -108,7 +108,7 @@ class ProviderResourceTest(ResourceTestCaseMixin, TestCase):
         self.assertEqual(Provider.objects.get(pk=1).name, 'newName')
         self.assertEqual(Provider.objects.get(pk=1).email, 'newemail@go.com')
 
-    def test_delete_detail(self):
+    def test_DELETE_detail(self):
         self.assertEqual(Provider.objects.count(), 2)
         self.assertHttpAccepted(
             self.api_client.delete(self.base_url+'1/', format='json'))
