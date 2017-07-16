@@ -6,5 +6,5 @@ from provider.models import Provider
 class ProviderResource(ModelResource):
     class Meta:
         queryset = Provider.objects.all()
-        resource_name = 'provider'
+        resource_name = 'providers'
         authorization = Authorization()
