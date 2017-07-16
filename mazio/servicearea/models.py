@@ -1,4 +1,4 @@
-from django.contrib.gis import gis_models
+from django.contrib.gis.db import models as gis_models
 from django.db import models
 
 from provider.models import Provider
