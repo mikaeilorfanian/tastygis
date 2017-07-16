@@ -1,0 +1,24 @@
+[
+{
+    "model": "provider.provider",
+    "pk": 1,
+    "fields": {
+        "name": "mikaeil",
+        "email": "mokt@outlook.com",
+        "phone": 732247935,
+        "language": "en",
+        "currency": "pln"
+    }
+},
+{
+    "model": "provider.provider",
+    "pk": 2,
+    "fields": {
+        "name": "Mike",
+        "email": "mocked@outlook.com",
+        "phone": 732247956,
+        "language": "en",
+        "currency": "usd"
+    }
+}
+]
