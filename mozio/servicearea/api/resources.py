@@ -1,6 +1,7 @@
 from tastypie import fields
 from tastypie.authorization import Authorization
 from tastypie.contrib.gis.resources import ModelResource
+from tastypie.resources import ALL
 
 from provider.api.resources import ProviderResource
 from servicearea.models import ServiceArea
@@ -15,5 +16,5 @@ class ServiceAreaResource(ModelResource):
         authorization = Authorization()
 
         filtering = {
-            'polys': 'ALL',
+            'polys': ALL,
         }
