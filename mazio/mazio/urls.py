@@ -1,4 +1,4 @@
-"""mazio URL Configuration
+"""mozio URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.11/topics/http/urls/
@@ -30,10 +30,10 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include(v1_api.urls)),
     url(r'^api/doc',
-        include('tastypie_swagger.urls', namespace='mazioapi_tastypie_swagger'),
+        include('tastypie_swagger.urls', namespace='mozioapi_tastypie_swagger'),
         kwargs={
             'tastypie_api_module': v1_api,
-            'namespace': 'mazioapi_tastypie_swagger',
+            'namespace': 'mozioapi_tastypie_swagger',
             'version': '1.0'
         }
     ),

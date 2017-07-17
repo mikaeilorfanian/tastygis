@@ -1,1 +1,1 @@
-web: gunicorn mazio.mazio.wsgi --log-file -
+web: gunicorn mozio.mozio.wsgi --log-file -
