@@ -8,7 +8,7 @@ My goal was to write the minimum amount of code necessary to create this API *an
 Thanks to these tools, I only had to write 20 lines of custom code to create an API that can handle:  
 * `PUT GET POST DELTE` operations for a `Provider` resource
 * `PUT GET POST DELTE` operations for a `ServiceArea` resource
-* Many standard spatial filters on the `ServiceArea` resource
+* Many standard spatial filters on the `ServiceArea` resource   
 This solution comes with a comprehensive suite of tests that you can run using Djagno's test runner.  
 
 ## Limitations
